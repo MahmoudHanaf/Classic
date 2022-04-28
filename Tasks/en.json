@@ -1,0 +1,26 @@
+{
+    "MONTHS": {
+        "يناير": "يناير",
+        "فبراير": "فبراير",
+        "مارس": "مارس",
+        "APRIL": "ابريل",
+        "MAY": "مايو",
+        "JUNE": "يونيو",
+        "JULY": "يوليو",
+        "AUGUST": "اغسطس",
+        "SEPTEMBER": "سبتمبر",
+        "OCTOBER": "اكتوبر",
+        "NOVEMBER": "نوفمبر",
+        "DECEMBER": "ديسمبر"
+    },
+    "DAYS": {
+        "MONDAY": "ن",
+        "TUESDAY": "ث",
+        "WEDNESDAY": "ر",
+        "THURSDAY": "خ",
+        "FRIDAY": "ج",
+        "SATURDAY": "س",
+        "SUNDAY": "ح"
+
+    }
+}

@@ -1,0 +1,12 @@
+file maneger
+host : ftp://ftp.camp-coding.com/
+user name:u462788822.classic
+port : 21
+pass :Classic123*
+
+Data Base
+DB:  u462788822_classic
+user DB :u462788822_classic
+pass :Classic123*
+
+link DB : https://auth-db165.hostinger.com/
