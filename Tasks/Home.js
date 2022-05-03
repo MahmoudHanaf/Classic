@@ -87,7 +87,7 @@ get_User_Data(name,phone){
     phone:phone,
     }
     
-    axios.post("http://192.168.1.3/Classic/Select_User_Data.php", data_to_send).then(res => {
+    axios.post("https://camp-coding.com/classic/Select_User_Data.php", data_to_send).then(res => {
         if (res.status == 200) {   
             if (typeof (res.data) == typeof ({})) {
                 this.setState({
@@ -101,7 +101,7 @@ get_User_Data(name,phone){
 
 
 getData(){
-  axios.get("http://192.168.1.3/Classic/Select_Work_Time.php").then(res=>{
+  axios.get("https://camp-coding.com/classic/Select_Work_Time.php").then(res=>{
       if(res.status ==200){ 
           // alert(res.data)
             this.setState({

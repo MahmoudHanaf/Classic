@@ -10,3 +10,5 @@ user DB :u462788822_classic
 pass :Classic123*
 
 link DB : https://auth-db165.hostinger.com/
+
+Domain : https://camp-coding.com/classic/

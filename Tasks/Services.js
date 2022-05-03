@@ -84,7 +84,7 @@ export default class Services extends React.Component {
 
 
     getData(){
-      axios.get("http://192.168.1.3/Classic/Select_Services.php").then(res=>{
+      axios.get("https://camp-coding.com/classic/Select_Services.php").then(res=>{
           if(res.status ==200){ 
               if(typeof(res.data) == typeof({})){
                 this.setState({

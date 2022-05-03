@@ -264,7 +264,7 @@ Select(name,phone){
      name:name,
      phone:phone,
    }
-   axios.post("http://192.168.1.3/Classic/Select_Profile.php",data_to_send).then(res=>{
+   axios.post("https://camp-coding.com/classic/Select_Profile.php",data_to_send).then(res=>{
      if(res.status ==200){
          if(typeof(res.data) == typeof({}) && res.data != null){
           this.setState({

@@ -50,7 +50,7 @@ export default class MyOrders extends React.Component {
         let data_to_send = {
             user_id: user_id,
         }
-        axios.post("http://192.168.1.3/Classic/MyOrder.php", data_to_send).then(res => {
+        axios.post("https://camp-coding.com/classic/MyOrder.php", data_to_send).then(res => {
             if (res.status == 200) {
                 if (typeof (res.data) == typeof ({})) {
                     this.setState({
@@ -75,7 +75,7 @@ export default class MyOrders extends React.Component {
         let data_to_send = {
             order_id: this.state.Data.order_id,
         }
-        axios.post("http://192.168.1.3/Classic/Delete_Order.php", data_to_send).then(res => {
+        axios.post("https://camp-coding.com/classic/Delete_Order.php", data_to_send).then(res => {
             if (res.status == 200) {
                 // if (res.data) {
                     this.setState({

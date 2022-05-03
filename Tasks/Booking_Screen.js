@@ -57,7 +57,7 @@ export default class Booking_Screen extends React.Component {
       booking_date: mydate
     }
    
-    axios.post("http://192.168.1.3/Classic/Select_Booking_Times.php",data_to_send).then(res => {
+    axios.post("https://camp-coding.com/classic/Select_Booking_Times.php",data_to_send).then(res => {
      
       if (res.status == 200) {
        
@@ -209,8 +209,8 @@ export default class Booking_Screen extends React.Component {
          {
            this.state.show == true ?
            <View style={[styles.view_date,{ backgroundColor: '#fff', shadowColor: "#000",
-           marginTop:7,height:windowHeight*.3,width:windowWidth*.3,marginLeft:windowWidth*.32,}]}>
-               <View style={{width:windowWidth*.2,height:windowHeight*.26,justifyContent:'space-between'}}>
+           marginTop:0,height:windowHeight*.18,width:windowWidth*.3,marginLeft:windowWidth*.32,}]}>
+               <View style={{width:windowWidth*.15,height:windowHeight*.14,justifyContent:'space-between'}}>
                     {
                       this.state.Times.map((item,index)=>
                         <View style={{

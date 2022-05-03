@@ -82,7 +82,7 @@ export default class Confirm_Booking extends React.Component {
       services:this.state.Cart.join("//"),
     }
    
-    axios.post("http://192.168.1.3/Classic/Insert_Order.php",data_to_send).then(res => {
+    axios.post("https://camp-coding.com/classic/Insert_Order.php",data_to_send).then(res => {
      
       if (res.status == 200) {
       

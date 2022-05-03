@@ -98,7 +98,7 @@ if(Eroors ==0){
     name:this.state.name,
     phone:this.state.phone,
   }
-  axios.post("http://192.168.1.3/Classic/LogIn.php",data_to_send).then(res=>{
+  axios.post("https://camp-coding.com/classic/LogIn.php",data_to_send).then(res=>{
         if(res.status ==200){
           if(typeof(res.data)== typeof({})){
            

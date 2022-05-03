@@ -59,7 +59,7 @@ import { BannerAd, TestIds } from '@react-native-admob/admob';
       name:name,
     }//http://classic.epizy.com   ////  https://classicapp.000webhostapp.com
    
-    axios.post("http://192.168.1.3/Classic/Check_Auth.php",data_to_send).then(res => {
+    axios.post("https://camp-coding.com/classic/Check_Auth.php",data_to_send).then(res => {
       
       if (res.status == 200) {
         //  alert(res.data)
